@@ -2,10 +2,9 @@ This is a very simple command line script to convert images to HTML tables.
 
 ## Usage
 
-    from litmus.analytics import LitmusAnalytics
+    python img2html.py image.png
 
-    litmus = LitmusAnalytics(LITMUS_ID, LITMUS_USER, LITMUS_PASSWORD)
-    tracking_code = litmus.get_tracking_code("Jonathan Manual Testing")
+That's it!  The script reads from the specified image file and outputs to stdout.
 
 ## Disclaimers
 
